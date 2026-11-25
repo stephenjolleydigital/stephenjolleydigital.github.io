@@ -49,6 +49,8 @@ h1 { margin-top: .7rem; font: 500 clamp(3.2rem, 10vw, 8.3rem)/.96 var(--serif); 
 .project-copy p:not(.eyebrow) { color: var(--muted); }
 .project-copy p + p { margin-top: .65rem; }
 .project-copy .note { font-size: .88rem; }
+.dj-portraits { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; max-width: 18rem; margin-top: 1rem; }
+.dj-portraits img { height: auto; border-radius: .3rem; }
 .project-image { overflow: hidden; border-radius: .4rem; }
 .dj-image { background: #412918; aspect-ratio: 1600 / 1067; }
 .game { grid-template-columns: minmax(0, 6fr) minmax(0, 4fr); }
@@ -92,6 +94,8 @@ summary::marker { color: var(--orange); }
 details p, .link-list { margin: 0 0 .65rem; padding-left: 1.2rem; }
 .link-list { list-style: none; display: grid; gap: .42rem; }
 .link-list a { color: var(--orange); }
+.illustrated-link { display: inline-flex; align-items: center; gap: .75rem; margin-top: .3rem; }
+.illustrated-link img { width: 4.5rem; height: auto; border-radius: .25rem; }
 .footer { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 1.25rem 2rem; padding-block: clamp(2rem, 6vw, 4rem); }
 .footer h2 { font-size: clamp(2rem, 5vw, 3.3rem); margin-bottom: .45rem; }
 .footer a { overflow-wrap: anywhere; }
