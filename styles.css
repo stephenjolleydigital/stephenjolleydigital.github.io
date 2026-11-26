@@ -54,8 +54,8 @@ h1 { margin-top: .7rem; font: 500 clamp(3.2rem, 10vw, 8.3rem)/.96 var(--serif); 
 .project-image { overflow: hidden; border-radius: .4rem; }
 .dj-image { background: #412918; aspect-ratio: 1600 / 1067; }
 .game { grid-template-columns: minmax(0, 6fr) minmax(0, 4fr); }
-.game-image { background: #181912; aspect-ratio: 16 / 9; }
-.game-image img { image-rendering: pixelated; }
+.game-trailer video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: .4rem; background: #181912; }
+.game-trailer figcaption { margin-top: .5rem; color: var(--muted); font-size: .88rem; }
 .actions { display: flex; gap: .55rem; flex-wrap: wrap; margin-top: 1.15rem; }
 .community { margin-top: 1rem; }
 .media-section { color-scheme: dark; background: var(--dark); color: var(--light); padding-block: clamp(3rem, 7vw, 6rem); }
